@@ -1,0 +1,27 @@
+/* TableData.css */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  

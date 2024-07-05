@@ -1,0 +1,35 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.main-content {
+    margin-left: 240px; /* Adjust this to match your sidebar width */
+}
+
+.table-container {
+    max-height: 300px; /* Set the desired height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Optional: Add a bottom border to table rows */
+  }
+  
+  th {
+    position: sticky; /* Make the table headers sticky */
+    top: 0;
+    background-color: #f1f1f1; /* Background color for headers */
+  }
+  
